@@ -27,7 +27,7 @@ for (let i = 1; i <= 100; i++) {
 
   fizzCol.innerHTML += `
     <div class="card ${fizzClass}">
-        <div class="card-body">
+        <div class="card-body fw-bold">
             ${fizzPrint}
         </div>
     </div>

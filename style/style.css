@@ -1,3 +1,12 @@
+:root {
+  /* palette */
+  --app-bg: #083b4c;
+  --fizzbuzz-bg: #f0466f;
+  --number-bg: #1389b2;
+  --fizz-bg: #0cd6a1;
+  --buzz-bg: #ffd166;
+}
+
 /* ! reset */
 * {
   padding: 0;
@@ -8,6 +17,7 @@
 /* ! generics */
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--app-bg);
 }
 
 ul {
@@ -24,11 +34,33 @@ img {
   width: 100%;
 }
 
+/* page */
+h1 {
+  color: #fff;
+  font-weight: bold;
+}
+
 /* card */
 .card {
   width: 100px;
   aspect-ratio: 1;
   align-items: center;
+}
+
+.fizzbuzz {
+  background-color: var(--fizzbuzz-bg);
+}
+
+.fizz {
+  background-color: var(--fizz-bg);
+}
+
+.buzz {
+  background-color: var(--buzz-bg);
+}
+
+.number {
+  background-color: var(--number-bg);
 }
 
 .card-body {
