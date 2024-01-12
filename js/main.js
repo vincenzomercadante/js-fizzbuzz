@@ -15,13 +15,13 @@ for (let i = 1; i <= 100; i++) {
   // verifica sul contatore
   if (i % 15 == 0) {
     fizzPrint = "FIZZBUZZ";
-    fizzClass = "fizzbuzz";
+    fizzClass = fizzPrint.toLowerCase();
   } else if (i % 5 == 0) {
     fizzPrint = "BUZZ";
-    fizzClass = "buzz";
+    fizzClass = fizzPrint.toLowerCase();
   } else if (i % 3 == 0) {
     fizzPrint = "FIZZ";
-    fizzClass = "fizz";
+    fizzClass = fizzPrint.toLowerCase();
   } else {
     fizzPrint = i;
     fizzClass = "number";
