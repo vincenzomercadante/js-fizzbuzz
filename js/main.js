@@ -7,7 +7,7 @@ for (let i = 1; i <= 100; i++) {
   let fizzClass = "";
   // creiamo il contenitore dove creiamo il container delle card
   const fizzCol = document.createElement("div");
-  fizzCol.classList.add("col-2");
+  fizzCol.classList.add("col");
 
   cardContainer.append(fizzCol);
 
