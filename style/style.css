@@ -1,3 +1,4 @@
+/* ! custom prop */
 :root {
   /* palette */
   --app-bg: #083b4c;
@@ -5,12 +6,14 @@
   --number-bg: #1389b2;
   --fizz-bg: #0cd6a1;
   --buzz-bg: #ffd166;
+  /* layout  */
+  --card-height: 100px;
 }
 
 /* ! reset */
 * {
-  padding: 0;
-  margin: 0;
+  /* padding: 0;
+  margin: 0; */
   box-sizing: border-box;
 }
 
@@ -19,7 +22,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: var(--app-bg);
 }
-
+/* 
 ul {
   list-style: none;
 }
@@ -32,7 +35,7 @@ a {
 img {
   display: block;
   width: 100%;
-}
+} */
 
 /* page */
 h1 {
@@ -47,6 +50,7 @@ h1 {
   align-items: center;
 }
 
+/* colori sfondo card */
 .fizzbuzz {
   background-color: var(--fizzbuzz-bg);
 }
@@ -63,7 +67,9 @@ h1 {
   background-color: var(--number-bg);
 }
 
+/* card body */
 .card-body {
   display: flex;
   align-items: center;
+  font-weight: bold;
 }
